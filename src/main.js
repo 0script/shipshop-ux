@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faUserSecret,faCartShopping,faSearch,faSearchPlus } from '@fortawesome/free-solid-svg-icons'
 
 import axios from 'axios'
-axios.defaults.baseURL='http://shipshop.pythonanywhere.com/'
+axios.defaults.baseURL='https://shipshop.pythonanywhere.com/'
 
 /* add icons to the library */
 library.add(faUserSecret,faCartShopping,faSearch,faSearchPlus)
